@@ -19,7 +19,9 @@
 Для установки зависимостей нужно прописать следующие команды:
 #### Устанавливаем OpenCV
 ```bash
-pip install opencv-python```
+pip install opencv-python
+```
 #### Устанавливаем Ultralytics
 ```bash
-pip install ultralytics```
+pip install ultralytics
+```
