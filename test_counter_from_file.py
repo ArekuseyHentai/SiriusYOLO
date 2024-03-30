@@ -3,7 +3,7 @@ from modules.ultralytics.solutions import object_counter
 import cv2
 
 model = YOLO("yolov8n.pt")
-cap = cv2.VideoCapture("file5.mp4")
+cap = cv2.VideoCapture("./src/file5.mp4")
 w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FRAME_HEIGHT, cv2.CAP_PROP_FPS))
 video_writer = cv2.VideoWriter(
     "object_counting_output.avi",
