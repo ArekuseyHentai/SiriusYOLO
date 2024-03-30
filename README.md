@@ -17,5 +17,7 @@
 Обработка входного видеопотока с камеры.
 ## Установка зависимостей
 Для установки зависимостей нужно прописать следующие команды:
-`pip install opencv-python`
-`pip install ultralytics`
+#### Устанавливаем OpenCV
+```pip install opencv-python```
+#### Устанавливаем Ultralytics
+```pip install ultralytics```
